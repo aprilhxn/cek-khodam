@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Khodam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center fixed; /* Ganti dengan URL gambar latar belakang Anda */
+            background-size: cover; /* Mengatur gambar latar belakang untuk mencakup seluruh area tampilan */
+            color: #fff; /* Warna teks putih */
+            margin: 0;
+            padding: 0;
+            display: flex; /* Menjadikan elemen body sebagai flex container */
+            flex-direction: column; /* Mengatur tata letak konten menjadi kolom */
+            justify-content: center; /* Mengatur posisi vertikal ke tengah */
+            align-items: center; /* Mengatur posisi horizontal ke tengah */
+            min-height: 100vh; /* Menggunakan tinggi minimal 100% dari viewport */
+            overflow: hidden; /* Menyembunyikan overflow */
+        }
+
+        .lightning {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            opacity: 0;
+            pointer-events: none;
+            z-index: 1;
+            animation: lightning 4s infinite;
+        }
+
+        @keyframes lightning {
+            0%, 100% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        .title-container {
+            width: 80%;
+            max-width: 600px;
+            background-color: red; /* Warna latar belakang merah pada judul */
+            padding: 20px;
+            border-radius: 8px 8px 0 0; /* Corner radius untuk sudut atas */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center; /* Mengatur teks menjadi di tengah */
+            margin-bottom: 0; /* Menghilangkan margin bawah */
+            z-index: 2; /* Pastikan elemen ini berada di atas petir */
+        }
+
+        .title-container h1 {
+            margin: 0;
+            color: black; /* Warna teks putih */
+        }
+
+        .container {
+            opacity:60%;
+            width: 80%;
+            max-width: 600px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 0 0 8px 8px; /* Corner radius untuk sudut bawah */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex; /* Menjadikan elemen container sebagai flex container */
+            flex-direction: column; /* Mengatur tata letak konten menjadi satu kolom */
+            align-items: center; /* Mengatur posisi horizontal ke tengah */
+            z-index: 2; /* Pastikan elemen ini berada di atas petir */
+        }
+
+        form {
+            text-align: center;
+            width: 100%; /* Menyesuaikan lebar form dengan parent */
+        }
+
+        label {
+            font-weight: bold;
+            color: #000; /* Warna teks hitam */
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            color: #000; /* Warna teks hitam */
+        }
+
+        button {
+            padding: 10px 20px;
+            opacity: 100%;
+            background-color: red; /* Warna merah pada tombol */
+            color: black;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #E5492D; /* Warna merah lebih gelap saat hover */
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #ccc; /* Warna teks abu-abu */
+        }
+
+        #hasilCek {
+            color: #000; /* Warna teks hasil cek menjadi hitam */
+        }
+    </style>
+</head>
+<body>
+    <div class="lightning"></div>
+    <div class="title-container">
+        <h1>CEK KHODAM</h1>
+    </div>
+    <div class="container">
+        <form id="cekForm">
+            <label for="nama">Nama :</label><br>
+            <br>
+            <input type="text" id="nama" name="nama" required><br><br>
+            <button type="submit">Cek</button>
+        </form>
+        <div id="hasilCek">
+            <!-- Hasil cek akan ditampilkan di sini -->
+        </div>
+        <footer>
+            <p>&copy; 2024 Aprilhxn</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('cekForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Ambil nilai dari input nama
+            var nama = document.getElementById('nama').value;
+
+            // Fetch data dari file JSON
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Ambil data secara acak dari array data
+                    var randomIndex = Math.floor(Math.random() * data.length);
+                    var hasilCek = data[randomIndex];
+
+                    // Tampilkan hasil cek
+                    document.getElementById('hasilCek').innerHTML = `
+                        <p>Nama : ${nama}</p>
+                        <p>Khodam : ${hasilCek.nama}</p>
+                        <p>${hasilCek.deskripsi}</p>
+                    `;
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        });
+
+        function triggerLightning() {
+            const lightning = document.querySelector('.lightning');
+            lightning.style.animation = 'lightning 0.2s';
+            setTimeout(() => {
+                lightning.style.animation = '';
+            }, 200);
+        }
+
+        setInterval(triggerLightning, Math.random() * (8000 - 3000) + 2000); // Memicu petir setiap 2 hingga 5 detik
+    </script>
+</body>
+</html>
