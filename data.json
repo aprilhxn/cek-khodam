@@ -1,283 +1,815 @@
 [
-    
     {
-        "nama": "Kambing Bunting",
-        "deskripsi": "Sebagai penjaga untuk menindari kebocoran."
-    },
-    {
-        "nama": "Kuda Lumping",
-        "deskripsi": "Membantu dalam menari untuk mengusir keburukan."
+        "nama": "Unicorn",
+        "deskripsi": "Makhluk mitologis berbentuk kuda dengan tanduk satu, sering disebut sebagai kuda poni dengan 'upgrade'."
     },
     {
-        "nama": "Kucing Garong",
-        "deskripsi": "Melindungi pemiliknya dari gangguan jahat."
+        "nama": "Sasquatch",
+        "deskripsi": "Makhluk humanoid besar dengan bulu-bulu tebal, dikenal karena tinggal di hutan dan menghindari manusia."
     },
     {
-        "nama": "Singa Siluman",
-        "deskripsi": "Memberikan keberanian dan kekuatan kepada pemiliknya."
+        "nama": "Chupacabra",
+        "deskripsi": "Makhluk misterius yang dikatakan menyerang dan menghisap darah hewan ternak, tetapi sering kali dikira kambing yang terlalu di-petrol."
     },
     {
-        "nama": "Naga Emas",
-        "deskripsi": "Membawa kekayaan dan kemakmuran."
+        "nama": "Kappa",
+        "deskripsi": "Makhluk mitologis Jepang berbentuk seperti kura-kura, namun gemar mengisi perut dengan mentimun daripada rusa."
     },
     {
-        "nama": "Ayam Nyanyi",
-        "deskripsi": "Mengusir energi negatif dengan kokokannya yang merdu."
+        "nama": "Phoenix",
+        "deskripsi": "Burung legendaris yang dapat hidup kembali dari abu, dengan kebiasaan terbang tinggi sebelum menabrak semak-semak."
     },
     {
-        "nama": "Belut Ajaib",
-        "deskripsi": "Memberikan inspirasi dan kejutan dalam kehidupan sehari-hari."
+        "nama": "Nessie",
+        "deskripsi": "Monster air yang misterius di Loch Ness, terkenal dengan selera humornya yang buruk dan cenderung muncul di foto kabur."
     },
     {
-        "nama": "Macan Putih",
-        "deskripsi": "Melindungi dari serangan energi negatif dan memberikan ketenangan."
+        "nama": "Goblin",
+        "deskripsi": "Makhluk kecil yang sering memakai topi merah, suka mencuri kaus kaki dari mesin cuci."
     },
     {
-        "nama": "Harimau Berantai",
-        "deskripsi": "Memberikan keberanian dan kelincahan untuk menghadapi tantangan."
+        "nama": "Pegasus",
+        "deskripsi": "Kuda berbulu dan berparuh, dengan bakat untuk melanggar rekor dunia lompat."
     },
     {
-        "nama": "Elang Emas",
-        "deskripsi": "Membawa keberuntungan dan pandangan tajam untuk melihat peluang."
+        "nama": "Cerberus",
+        "deskripsi": "Anjing penjaga Underworld, terkenal dengan kemampuannya dalam kucing tikus dan berasal dari tiupan."
     },
     {
-        "nama": "Kodok Cabe",
-        "deskripsi": "Memberikan keberanian dan kejutan dengan racikan khas."
+        "nama": "Jackalope",
+        "deskripsi": "Makhluk mitologis Amerika dengan tubuh kelinci dan tanduk rusa, yang kemungkinan besar menciptakan resipi hotdog corn."
+        },
+        {
+        "nama": "Nyi Roro Kidul",
+        "deskripsi": "Ratu laut selatan Jawa yang dikenal memiliki kekuatan magis dan dianggap sebagai penjaga keramat oleh masyarakat Jawa."
     },
     {
-        "nama": "Gajah Belajar",
-        "deskripsi": "Menjadi penolong untuk memahami hal-hal rumit dengan sabar."
+        "nama": "Garuda",
+        "deskripsi": "Burung mitologis dalam budaya Hindu dan Buddha, sering disimbolkan sebagai kendaraan Dewa Wisnu dengan sayap yang besar dan kuat."
     },
     {
-        "nama": "Burung Pipit Sakti",
-        "deskripsi": "Menghadirkan kebahagiaan dan kesederhanaan dalam hidup."
+        "nama": "Kappa",
+        "deskripsi": "Makhluk mitologis Jepang berbentuk seperti kura-kura dengan kepala yang menyerupai burung, dikenal karena suka menggoda manusia dan memakan mentimun."
     },
     {
-        "nama": "Ular Tedung Siluman",
-        "deskripsi": "Melindungi rumah dari energi negatif dan penyakit."
+        "nama": "Phoenix",
+        "deskripsi": "Burung api legendaris yang dapat hidup kembali dari abu setelah mati, sering disimbolkan sebagai simbol kebangkitan dan keabadian."
     },
     {
-        "nama": "Cicak Merah Berapi",
-        "deskripsi": "Menyediakan perlindungan dan keberanian untuk menghadapi musuh."
+        "nama": "Sphinx",
+        "deskripsi": "Makhluk mitologis Yunani yang memiliki kepala dan dada manusia, tubuh singa, dan sayap burung elang, dikenal karena teka-teki dan kebijaksanaannya."
     },
     {
-        "nama": "Tikus Hoki",
-        "deskripsi": "Memberikan keberuntungan dan nasib baik dalam usaha dan percintaan."
+        "nama": "Kraken",
+        "deskripsi": "Monster laut raksasa dalam mitologi Skandinavia dan Islandia, sering digambarkan sebagai makhluk berkepala banyak dengan lengan-lengan yang dapat menghancurkan kapal."
     },
     {
-        "nama": "Kupu-kupu Mutiara",
-        "deskripsi": "Membawa keindahan dan transformasi positif dalam kehidupan."
+        "nama": "Jormungandr",
+        "deskripsi": "Naga raksasa dalam mitologi Nordik yang melingkari Midgard, anak ketiga dari raksasa Loki dan diprediksi akan menyebabkan kiamat saat dia melepaskan ekornya."
     },
     {
-        "nama": "Kelelawar Hitam",
-        "deskripsi": "Menolong dalam menavigasi malam yang gelap dengan kecerdikan."
+        "nama": "Yeti",
+        "deskripsi": "Makhluk humanoid besar yang tinggal di pegunungan Himalaya, sering dianggap sebagai versi mitologis dari Sasquatch atau Bigfoot."
     },
     {
-        "nama": "Anjing Pelacak",
-        "deskripsi": "Membantu dalam menemukan jalan keluar dari masalah dan bahaya."
+        "nama": "Anubis",
+        "deskripsi": "Dewa kematian dan pemakaman dalam mitologi Mesir Kuno, sering digambarkan sebagai manusia dengan kepala anjing dan bertanggung jawab untuk memandu jiwa ke dunia bawah."
     },
     {
-        "nama": "Semut Kecil",
-        "deskripsi": "Memberikan kegigihan dan kerja keras untuk meraih tujuan."
+        "nama": "Kappa",
+        "deskripsi": "Makhluk mitologis Jepang berbentuk seperti kura-kura dengan kepala yang menyerupai burung, dikenal karena suka menggoda manusia dan memakan mentimun."
     },
     {
-        "nama": "Belum Ada Khodam",
-        "deskripsi": "Silahkan top up dulu!"
-    },
- {
-        "nama": "Belum Ada Khodam",
-        "deskripsi": "Silahkan top up dulu!"
-    },
-     {
-        "nama": "Belum Ada Khodam",
-        "deskripsi": "Silahkan top up dulu!"
-    },
-     {
-        "nama": "Belum Ada Khodam",
-        "deskripsi": "Silahkan top up dulu!"
-    },
-     {
-        "nama": "Belum Ada Khodam",
-        "deskripsi": "Silahkan top up dulu!"
-    },
-     {
-        "nama": "Belum Ada Khodam",
-        "deskripsi": "Silahkan top up dulu!"
-    },
-     {
-        "nama": "Belum Ada Khodam",
-        "deskripsi": "Silahkan top up dulu!"
-    },
-     {
-        "nama": "Belum Ada Khodam",
-        "deskripsi": "Silahkan top up dulu!"
-    },
-     {
-        "nama": "Belum Ada Khodam",
-        "deskripsi": "Silahkan top up dulu!"
+        "nama": "Phoenix",
+        "deskripsi": "Burung api legendaris yang dapat hidup kembali dari abu setelah mati, sering disimbolkan sebagai simbol kebangkitan dan keabadian."
     },
     {
-        "nama": "Belum Ada Khodam",
-        "deskripsi": "Silahkan top up dulu, semoga MAXWIN!"
+        "nama": "Sphinx",
+        "deskripsi": "Makhluk mitologis Yunani yang memiliki kepala dan dada manusia, tubuh singa, dan sayap burung elang, dikenal karena teka-teki dan kebijaksanaannya."
     },
     {
-        "nama": "Pocong Seram",
-        "deskripsi": "Muncul di malam hari untuk menegur orang-orang yang melanggar adat."
+        "nama": "Kraken",
+        "deskripsi": "Monster laut raksasa dalam mitologi Skandinavia dan Islandia, sering digambarkan sebagai makhluk berkepala banyak dengan lengan-lengan yang dapat menghancurkan kapal."
     },
     {
-        "nama": "Kuntilanak Kamar",
-        "deskripsi": "Menampakkan diri di kamar-kamar tidur untuk menakut-nakuti anak-anak nakal."
+        "nama": "Jormungandr",
+        "deskripsi": "Naga raksasa dalam mitologi Nordik yang melingkari Midgard, anak ketiga dari raksasa Loki dan diprediksi akan menyebabkan kiamat saat dia melepaskan ekornya."
     },
     {
-        "nama": "Tuyul Cerdas",
-        "deskripsi": "Membantu mencari harta tersembunyi dan memberikan keberuntungan kepada yang menemukannya."
+        "nama": "Yeti",
+        "deskripsi": "Makhluk humanoid besar yang tinggal di pegunungan Himalaya, sering dianggap sebagai versi mitologis dari Sasquatch atau Bigfoot."
     },
     {
-        "nama": "Genderuwo Gagah",
-        "deskripsi": "Melindungi hutan dan binatang-binatangnya dari perburuan liar."
+        "nama": "Anubis",
+        "deskripsi": "Dewa kematian dan pemakaman dalam mitologi Mesir Kuno, sering digambarkan sebagai manusia dengan kepala anjing dan bertanggung jawab untuk memandu jiwa ke dunia bawah."
     },
     {
-        "nama": "Sundel Bolong",
-        "deskripsi": "Memberikan peringatan kepada orang-orang yang tidak sopan kepada wanita hamil."
+        "nama": "Harimau Tersenyum",
+        "deskripsi": "Harimau yang terkenal dengan senyuman ramahnya, sering kali mengejutkan orang-orang yang melewati hutan dengan tersenyum."
     },
     {
-        "nama": "Poci Merah",
-        "deskripsi": "Menghantui pengunjung yang tidak sopan di rumah makan."
+        "nama": "Kodok Terbang",
+        "deskripsi": "Kodok yang memiliki kemampuan terbang dengan lidah yang panjang, sering kali digunakan sebagai moda transportasi oleh makhluk halus."
     },
     {
-        "nama": "Keris Tumpul",
-        "deskripsi": "Menjadi penolong dalam hal-hal terkait hukum dan keadilan."
+        "nama": "Gajah Berduri",
+        "deskripsi": "Gajah yang memiliki tubuh berduri besar-besar yang tumbuh seperti bulu, digunakan untuk memberikan perlindungan ekstra dari serangan predator."
     },
     {
-        "nama": "Hantu Air Mata",
-        "deskripsi": "Membawa kesedihan bagi mereka yang telah melakukan ketidakadilan terhadap orang lain."
+        "nama": "Buaya Bertopi",
+        "deskripsi": "Buaya yang memiliki topi tutup kepala dengan berbagai macam desain yang mengikuti tren mode makhluk halus saat ini."
     },
     {
-        "nama": "Setan Buku Tua",
-        "deskripsi": "Membuat bising di perpustakaan untuk mengusir para pelupa."
+        "nama": "Kucing Besar",
+        "deskripsi": "Kucing dengan ukuran tubuh yang sangat besar, sering kali digunakan sebagai pengganti furnitur berukuran besar di rumah-rumah makhluk halus."
     },
-    {
-        "nama": "Penghuni Kuburan",
-        "deskripsi": "Menjaga kuburan dari pencuri atau pengunjung yang tidak diundang."
-    },
-    {
-        "nama": "Kuntilanak Gentayangan",
-        "deskripsi": "Bertugas untuk mengingatkan orang-orang yang lupa akan akhirat."
-    },
-    {
-        "nama": "Jenglot Penjaga",
-        "deskripsi": "Melindungi perbatasan antara dunia manusia dan dunia gaib dari gangguan makhluk jahat."
-    },
-    {
-        "nama": "Suster Ngesot",
-        "deskripsi": "Memberikan pengobatan spiritual kepada yang sedang sakit secara tiba-tiba."
-    },
-    {
-        "nama": "Kuntilanak Gading",
-        "deskripsi": "Mengingatkan orang-orang untuk menjaga kebersihan dan keharmonisan di lingkungan tempat tinggalnya."
-    },
-    {
-        "nama": "Hantu Penunggu Pohon",
-        "deskripsi": "Menjaga kelestarian hutan dan flora-faunanya dari tangan manusia yang rakus."
-    },
-    {
-        "nama": "Kuntilanak Kepala Buntung",
-        "deskripsi": "Menjadi penolong bagi mereka yang mendapat perlakuan tidak adil."
-    },
-    {
-        "nama": "Pontianak Kematian",
-        "deskripsi": "Memberikan penghiburan kepada jiwa-jiwa yang tersesat di antara kehidupan dan kematian."
-    },
-    {
-        "nama": "Sundel Bolong Muda",
-        "deskripsi": "Mengingatkan remaja untuk tidak menyia-nyiakan masa mudanya."
-    },
-    {
-        "nama": "Tuyul Tertawa",
-        "deskripsi": "Memberikan kebahagiaan bagi mereka yang jujur dan tekun dalam bekerja."
-    },
-    {
-        "nama": "Hantu Gagal",
-        "deskripsi": "Menjadi pengingat bagi mereka yang tidak berhasil dalam usaha."
-    },
-    {
-        "nama": "Hiu Paus",
-        "deskripsi": "Raja laut yang menjaga keseimbangan ekosistem di samudra."
-    },
-    {
-        "nama": "Paus Biru",
-        "deskripsi": "Penjelajah samudra yang membawa pesan perdamaian antar spesies laut."
-    },
-    {
-        "nama": "Penyu Belimbing",
-        "deskripsi": "Melindungi telur-telurnya dengan gigih dari bahaya di pantai."
-    },
-    {
-        "nama": "Ikan Duyung",
-        "deskripsi": "Menyelamatkan pelaut yang terjebak di tengah badai laut."
-    },
-    {
-        "nama": "Kuda Laut",
-        "deskripsi": "Pengendali pasang surut untuk menjaga pantai dari abrasi."
-    },
-    {
-        "nama": "Cumi-cumi Hijau",
-        "deskripsi": "Ahli dalam menyembunyikan diri dan memberikan inspirasi pada para peneliti laut."
-    },
-    {
-        "nama": "Lumba-lumba Kecil",
-        "deskripsi": "Penghibur laut yang selalu menyapa kapal-kapal yang lewat."
-    },
-    {
-        "nama": "Kerang Emas",
-        "deskripsi": "Menyimpan harta karun bawah laut dan menyeimbangkan pH air laut."
-    },
-    {
-        "nama": "Gurita Pintar",
-        "deskripsi": "Pandai beradaptasi dan menemukan makanan di dasar laut yang terjal."
-    },
-    {
-        "nama": "Anemon Laut",
-        "deskripsi": "Melindungi ikan-ikan kecil dan menyediakan tempat perlindungan bagi makhluk laut lainnya."
-    },
-    {
-        "nama": "Lobster Raksasa",
-        "deskripsi": "Penjaga dari pemangsa di kedalaman laut yang gelap."
-    },
-    {
-        "nama": "Kerapu Batu",
-        "deskripsi": "Membangun terumbu karang dan menyediakan rumah bagi banyak spesies laut lainnya."
-    },
-    {
-        "nama": "Kepiting Perak",
-        "deskripsi": "Penyelamat pantai dengan membersihkan sisa-sisa organik dari permukaan laut."
-    },
-    {
-        "nama": "Ikan Gurita",
-        "deskripsi": "Menguasai teknik mengelabui pemangsa dan menjaga populasi ikan kecil."
-    },
-    {
-        "nama": "Ubur-ubur Bulat",
-        "deskripsi": "Memberikan pelajaran tentang ketabahan dan kesabaran dalam menghadapi arus laut yang kuat."
-    },
-    {
-        "nama": "Kura-kura Laut",
-        "deskripsi": "Perjalanan jauh dari satu pantai ke pantai lainnya untuk mencari makanan dan tempat bertelur."
-    },
-    {
-        "nama": "Kepiting Bintang",
-        "deskripsi": "Menyelamatkan korban kecelakaan kapal laut dengan menunjukkan jalan ke daratan."
-    },
-    {
-        "nama": "Cumi-cumi Pemburu",
-        "deskripsi": "Mengelola populasi ikan kecil dan mencegah kelebihan populasi."
-    },
-    {
-        "nama": "Paus Pemburu",
-        "deskripsi": "Menyediakan makanan untuk hewan laut lainnya dan membantu dalam penelitian kelautan."
-    },
-    {
-        "nama": "Ikan Duri Tertusuk",
-        "deskripsi": "Menunjukkan betapa pentingnya perlindungan terumbu karang dari kerusakan lingkungan."
-    }
-]
+  {
+    "nama": "Pontianak",
+    "deskripsi": "Makhluk halus berwujud perempuan dengan rambut panjang. Suka mengganggu orang di malam hari."
+  },
+  {
+    "nama": "Kuntilanak",
+    "deskripsi": "Makhluk berwujud perempuan dengan gaun putih. Terdengar tangisan menyeramkan sebagai pertanda akan munculnya."
+  },
+  {
+    "nama": "Tuyul",
+    "deskripsi": "Makhluk kecil berambut gimbal yang suka mencuri harta. Dapat dijinakkan dengan cara tertentu."
+  },
+  {
+    "nama": "Pocong",
+    "deskripsi": "Makhluk berwujud mayat yang terbungkus kain kafan putih. Berjalan dengan melompat-lompat."
+  },
+  {
+    "nama": "Sundel Bolong",
+    "deskripsi": "Makhluk berwujud perempuan dengan rambut panjang menutupi lubang di punggungnya. Suka mengganggu lelaki."
+  },
+  {
+    "nama": "Genderuwo",
+    "deskripsi": "Makhluk berwujud lelaki dengan tubuh besar dan rambut lebat. Suka berada di hutan dan daerah terpencil."
+  },
+  {
+    "nama": "Jenglot",
+    "deskripsi": "Makhluk kecil berwujud manusia dengan kulit hitam dan matanya merah. Dipercaya memiliki kekuatan gaib."
+  },
+  {
+    "nama": "Kerak Telor",
+    "deskripsi": "Makhluk berwujud manusia yang memiliki kulit seperti kerak telur. Biasanya muncul di tengah malam."
+  },
+  {
+    "nama": "Setan Kober",
+    "deskripsi": "Makhluk seram dengan wujud menakutkan, memiliki kekuatan supranatural."
+  },
+  {
+    "nama": "Leak",
+    "deskripsi": "Makhluk berwujud perempuan tua yang bisa melepas kepalanya dari tubuhnya. Suka mencuri bayi."
+  },
+  
+  {
+    "nama": "Harimau Malas",
+    "deskripsi": "Hewan besar berbulu belang yang suka tidur sepanjang hari."
+  },
+  {
+    "nama": "Singa Pemalas",
+    "deskripsi": "Singa besar berjubah rambut yang lebih suka berdiam diri daripada berburu."
+  },
+  {
+    "nama": "Serigala Terlalu Galak",
+    "deskripsi": "Serigala besar dengan sikap yang terlalu garang, membuat hewan lain jadi takut."
+  },
+  {
+    "nama": "Macan Kedinginan",
+    "deskripsi": "Macan besar yang selalu berkerut karena terlalu kedinginan di habitatnya."
+  },
+  {
+    "nama": "Buaya Mode",
+    "deskripsi": "Buaya besar yang selalu tampil bergaya dengan kacamata hitam dan topi pantai."
+  },
+  {
+    "nama": "Elang Mager",
+    "deskripsi": "Elang besar yang suka terbang tinggi tapi malas mencari mangsa."
+  },
+  {
+    "nama": "Beruang Suka Tidur",
+    "deskripsi": "Beruang besar yang lebih suka tidur di bawah pohon daripada berburu ikan salmon."
+  },
+  {
+    "nama": "Hiu Kekinian",
+    "deskripsi": "Hiu besar yang selalu up to date dengan mode terbaru di lautan."
+  },
+  {
+    "nama": "Ular Kocak",
+    "deskripsi": "Ular besar yang punya sense of humor tinggi, suka membuat lelucon bagi teman-temannya."
+  },
+  {
+    "nama": "Harimau Bobo",
+    "deskripsi": "Harimau muda yang suka bobo di bawah pohon dengan wajah lucu saat tidur."
+  },
+  {
+    "nama": "Harimau Sumatra",
+    "deskripsi": "Harimau besar dengan garis-garis hitam khas di tubuhnya, predator utama di hutan Sumatra."
+  },
+  {
+    "nama": "Singa Afrika",
+    "deskripsi": "Singa besar yang dikenal dengan jantan janggutnya dan peran utamanya dalam kelompok."
+  },
+  {
+    "nama": "Serigala Abadi",
+    "deskripsi": "Serigala besar yang hidup di berbagai habitat, cenderung berburu secara berkelompok."
+  },
+  {
+    "nama": "Macan Tutul",
+    "deskripsi": "Macan besar dengan bintik-bintik hitam yang tersebar di tubuhnya, predator yang tangkas di hutan."
+  },
+  {
+    "nama": "Buaya Nil",
+    "deskripsi": "Buaya besar yang mendiami sungai-sungai di Afrika dan merupakan predator kuat di air."
+  },
+  {
+    "nama": "Elang Botak",
+    "deskripsi": "Elang besar dengan bulu kepala yang botak, mampu melayang tinggi dalam mencari mangsa."
+  },
+  {
+    "nama": "Beruang Grizzly",
+    "deskripsi": "Beruang besar yang memiliki bulu coklat keemasan, dikenal sebagai predator di daerah pegunungan dan hutan."
+  },
+  {
+    "nama": "Hiu Putih Besar",
+    "deskripsi": "Hiu besar yang berenang di lautan luas, dikenal dengan gigi-gigi tajamnya dan mampu bergerak cepat."
+  },
+  {
+    "nama": "Ular King Cobra",
+    "deskripsi": "Ular besar yang berbisa kuat, dikenal dengan warna tubuhnya yang hitam dan kulitnya yang halus."
+  },
+  {
+    "nama": "Harimau Siberia",
+    "deskripsi": "Harimau besar yang hidup di daerah Siberia dengan bulu tebal untuk melindungi dari suhu dingin ekstrem."
+  },
+  
+  {
+    "nama": "Kuntilanak Kena Dandruff",
+    "deskripsi": "Makhluk berwujud perempuan dengan gaun putih, sering kesal karena rambutnya berketombe."
+  },
+  {
+    "nama": "Pocong Goyang Ketiak",
+    "deskripsi": "Makhluk berwujud mayat yang terbungkus kain kafan putih, suka menari sambil goyang ketiak."
+  },
+  {
+    "nama": "Sundel Bolong Nyasar",
+    "deskripsi": "Makhluk berwujud perempuan dengan rambut panjang, sering tersesat karena punggungnya berlubang."
+  },
+  {
+    "nama": "Tuyul Asik Nyuri Wi-Fi",
+    "deskripsi": "Makhluk kecil berambut gimbal yang suka mencuri harta, juga jago nyuri sinyal Wi-Fi."
+  },
+  {
+    "nama": "Jenglot Gaya K-Pop",
+    "deskripsi": "Makhluk kecil berwujud manusia dengan kulit hitam dan matanya merah, hobinya meniru gaya K-Pop."
+  },
+  {
+    "nama": "Genderuwo Lagi Diet",
+    "deskripsi": "Makhluk berwujud lelaki dengan tubuh besar, sedang dalam program diet ketat untuk merampingkan tubuhnya."
+  },
+  {
+    "nama": "Leak Gak Punya Kepala",
+    "deskripsi": "Makhluk berwujud perempuan tua yang bisa melepas kepalanya dari tubuhnya, tapi kadang lupa dimana dialetakkan."
+  },
+  {
+    "nama": "Setan Kober Galau",
+    "deskripsi": "Makhluk seram dengan wujud menakutkan, sedang galau karena kekasih setannya jauh di alam lain."
+  },
+  {
+    "nama": "Pontianak Suka Selfie",
+    "deskripsi": "Makhluk halus berwujud perempuan dengan rambut panjang, hobi utamanya adalah selfie di hutan gelap."
+  },
+  {
+    "nama": "Kerak Telor Pemalu",
+    "deskripsi": "Makhluk berwujud manusia dengan kulit seperti kerak telur, cenderung pemalu dan jarang muncul di depan orang banyak."
+  },
+  {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  }, {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  }, {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+  {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+  {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+  {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+  {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+  {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, TAPI PIKIRANMU BERANTAKAN"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "BELUM ADA KHODAM",
+    "deskripsi": "JIWA KAMU MASIH BERSIH, SILAHKAN TOP UP TERLEBIH DAHULU!"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT BAIK",
+    "deskripsi": "Sosok idaman para lelaki yang mengejar duniawi dan akhirat"
+  },
+   {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  },
+  {
+    "nama": "TOBRUT JAHAT",
+    "deskripsi": "Sosok idaman para lelaki tapi terkadang suka nyakitin, fak kata gue teh!"
+  }
+  
+       ]

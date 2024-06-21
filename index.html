@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aprilhxn">
     <title>Cek Khodam</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+        
         body {
-            font-family: Arial, sans-serif;
-            background: url('background.jpg') no-repeat center center fixed; /* Ganti dengan URL gambar latar belakang Anda */
-            background-size: cover; /* Mengatur gambar latar belakang untuk mencakup seluruh area tampilan */
-            color: #fff; /* Warna teks putih */
+            font-family: 'Raleway', Arial, sans-serif;
+            background: url('https://i.ibb.co.com/rkRQqX6/pxfuel-picsay.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
             margin: 0;
             padding: 0;
-            display: flex; /* Menjadikan elemen body sebagai flex container */
-            flex-direction: column; /* Mengatur tata letak konten menjadi kolom */
-            justify-content: center; /* Mengatur posisi vertikal ke tengah */
-            align-items: center; /* Mengatur posisi horizontal ke tengah */
-            min-height: 100vh; /* Menggunakan tinggi minimal 100% dari viewport */
-            overflow: hidden; /* Menyembunyikan overflow */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
         }
 
         .lightning {
@@ -44,59 +47,59 @@
 
         .title-container {
             width: 80%;
+            opacity: 50%;
             max-width: 600px;
-            background-color: red; /* Warna latar belakang merah pada judul */
+            background-color: red;
             padding: 20px;
-            border-radius: 8px 8px 0 0; /* Corner radius untuk sudut atas */
+            border-radius: 8px 8px 0 0;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            text-align: center; /* Mengatur teks menjadi di tengah */
-            margin-bottom: 0; /* Menghilangkan margin bawah */
-            z-index: 2; /* Pastikan elemen ini berada di atas petir */
+            text-align: center;
+            margin-bottom: 0;
+            z-index: 2;
         }
 
         .title-container h1 {
             margin: 0;
-            color: black; /* Warna teks putih */
+            color: black;
         }
 
         .container {
-            opacity:60%;
+            opacity: 50%;
             width: 80%;
             max-width: 600px;
             background-color: #fff;
             padding: 20px;
-            border-radius: 0 0 8px 8px; /* Corner radius untuk sudut bawah */
+            border-radius: 0 0 8px 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            display: flex; /* Menjadikan elemen container sebagai flex container */
-            flex-direction: column; /* Mengatur tata letak konten menjadi satu kolom */
-            align-items: center; /* Mengatur posisi horizontal ke tengah */
-            z-index: 2; /* Pastikan elemen ini berada di atas petir */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 2;
         }
 
         form {
             text-align: center;
-            width: 100%; /* Menyesuaikan lebar form dengan parent */
+            width: 100%;
         }
 
         label {
             font-weight: bold;
-            color: #000; /* Warna teks hitam */
+            color: #000;
         }
 
-        input[type="text"] {
+        input[type="text"], select {
             width: 100%;
             padding: 8px;
-            margin: 5px 0 15px 0;
+            margin: 5px 0 10px 0;
             box-sizing: border-box;
             border: 1px solid #ccc;
             border-radius: 4px;
-            color: #000; /* Warna teks hitam */
+            color: #000;
         }
 
         button {
             padding: 10px 20px;
-            opacity: 100%;
-            background-color: red; /* Warna merah pada tombol */
+            background-color: red;
             color: black;
             border: none;
             border-radius: 4px;
@@ -104,17 +107,43 @@
         }
 
         button:hover {
-            background-color: #E5492D; /* Warna merah lebih gelap saat hover */
+            background-color: #E5492D;
+        }
+
+        .social-media {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .social-media a {
+            color: #000;
+            text-decoration: none;
+            text-style: italic;
+        }
+
+        .social-media img {
+            width: 25px;
+            height: 25px;
+            vertical-align: middle;
         }
 
         footer {
             text-align: center;
             margin-top: 20px;
-            color: #ccc; /* Warna teks abu-abu */
+            color: #ccc;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+
+        
+        @keyframes marquee {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
         }
 
         #hasilCek {
-            color: #000; /* Warna teks hasil cek menjadi hitam */
+            color: #000;
         }
     </style>
 </head>
@@ -126,13 +155,25 @@
     <div class="container">
         <form id="cekForm">
             <label for="nama">Nama :</label><br>
-            <br>
             <input type="text" id="nama" name="nama" required><br><br>
+            <label for="jenisKelamin">Jenis Kelamin :</label><br>
+            <select id="jenisKelamin" name="jenisKelamin" required>
+                <option value="">Pilih</option>
+                <option value="laki-laki">Laki-laki</option>
+                <option value="perempuan">Perempuan</option>
+            </select><br><br>
             <button type="submit">Cek</button>
         </form>
         <div id="hasilCek">
             <!-- Hasil cek akan ditampilkan di sini -->
+            <br>
         </div>
+      <div class="social-media">
+    <a href="https://www.instagram.com/aprilhxn" target="_blank">
+        <img src="https://i.ibb.co.com/80NmP40/5ecec78673e4440004f09e77.png" alt="Follow me on Instagram">
+        <span style="font-weight: bold; font-style: italic;">Follow Me On Instagram!</span>
+    </a>
+</div>
         <footer>
             <p>&copy; 2024 Aprilhxn</p>
         </footer>
@@ -141,8 +182,9 @@
     <script>
         document.getElementById('cekForm').addEventListener('submit', function(event) {
             event.preventDefault();
-            // Ambil nilai dari input nama
+            // Ambil nilai dari input nama dan jenis kelamin
             var nama = document.getElementById('nama').value;
+            var jenisKelamin = document.getElementById('jenisKelamin').value;
 
             // Fetch data dari file JSON
             fetch('data.json')
@@ -154,10 +196,11 @@
 
                     // Tampilkan hasil cek
                     document.getElementById('hasilCek').innerHTML = `
-                        <p>Nama : ${nama}</p>
-                        <p>Khodam : ${hasilCek.nama}</p>
-                        <p>${hasilCek.deskripsi}</p>
-                    `;
+    <p>Nama: ${nama}</p>
+    <p>Jenis Kelamin : ${jenisKelamin}</p>
+    <p>Khodam : ${hasilCek.nama}</p>
+    <p><strong><em> ${hasilCek.deskripsi}</em></strong></p>
+`;
                 })
                 .catch(error => {
                     console.error('Error fetching data:', error);
@@ -172,7 +215,7 @@
             }, 200);
         }
 
-        setInterval(triggerLightning, Math.random() * (8000 - 3000) + 2000); // Memicu petir setiap 2 hingga 5 detik
+        setInterval(triggerLightning, Math.random() * (8000 - 3000) + 2000); // Memicu petir setiap 3 hingga 8 detik
     </script>
 </body>
 </html>
