@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Aprilhxn">
     <title>Cek Khodam</title>
     <style>
+        /* CSS yang sudah ada sebelumnya */
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
         
         body {
@@ -47,7 +47,6 @@
 
         .title-container {
             width: 80%;
-            opacity: 50%;
             max-width: 600px;
             background-color: red;
             padding: 20px;
@@ -64,7 +63,7 @@
         }
 
         .container {
-            opacity: 50%;
+            opacity: 60%;
             width: 80%;
             max-width: 600px;
             background-color: #fff;
@@ -136,7 +135,12 @@
             box-sizing: border-box;
         }
 
-        
+        footer p {
+            display: inline-block;
+            padding-left: 100%;
+            animation: none;
+        }
+
         @keyframes marquee {
             0% { transform: translate(0, 0); }
             100% { transform: translate(-100%, 0); }
@@ -154,53 +158,85 @@
     </div>
     <div class="container">
         <form id="cekForm">
-            <label for="nama">Nama :</label><br>
-            <input type="text" id="nama" name="nama" required><br><br>
-            <label for="jenisKelamin">Jenis Kelamin :</label><br>
-            <select id="jenisKelamin" name="jenisKelamin" required>
-                <option value="">Pilih</option>
-                <option value="laki-laki">Laki-laki</option>
-                <option value="perempuan">Perempuan</option>
-            </select><br><br>
+            <input type="radio" id="satuNama" name="jumlahNama" value="1" checked>
+            <label for="satuNama">Solo</label>
+            <input type="radio" id="duaNama" name="jumlahNama" value="2">
+            <label for="duaNama">Versus</label><br><br>
+            
+            <label for="nama1">Nama Kamu :</label><br>
+            <input type="text" id="nama1" name="nama1" required><br>
+            
+            <div id="namaKedua" style="display:none;">
+                <label for="nama2">Nama Teman :</label><br>
+                <input type="text" id="nama2" name="nama2"><br>
+            </div>
+
             <button type="submit">Cek</button>
         </form>
         <div id="hasilCek">
             <!-- Hasil cek akan ditampilkan di sini -->
-            <br>
         </div>
-      <div class="social-media">
-    <a href="https://www.instagram.com/aprilhxn" target="_blank">
-        <img src="https://i.ibb.co.com/80NmP40/5ecec78673e4440004f09e77.png" alt="Follow me on Instagram">
-        <span style="font-weight: bold; font-style: italic;">Follow Me On Instagram!</span>
-    </a>
-</div>
+        <div class="social-media">
+            <a href="https://www.instagram.com/username" target="_blank">
+                <img src="https://i.ibb.co/80NmP40/5ecec78673e4440004f09e77.png" alt="Follow me on Instagram">
+                Follow Me On Instagram
+            </a>
+        </div>
         <footer>
             <p>&copy; 2024 Aprilhxn</p>
         </footer>
     </div>
 
     <script>
+        // Mengatur visibilitas input nama kedua
+        document.getElementById('satuNama').addEventListener('change', function() {
+            document.getElementById('namaKedua').style.display = 'none';
+            document.getElementById('nama2').required = false;
+        });
+
+        document.getElementById('duaNama').addEventListener('change', function() {
+            document.getElementById('namaKedua').style.display = 'block';
+            document.getElementById('nama2').required = true;
+        });
+
         document.getElementById('cekForm').addEventListener('submit', function(event) {
             event.preventDefault();
-            // Ambil nilai dari input nama dan jenis kelamin
-            var nama = document.getElementById('nama').value;
-            var jenisKelamin = document.getElementById('jenisKelamin').value;
+            // Ambil nilai dari input nama
+            var nama1 = document.getElementById('nama1').value;
+            var nama2 = document.getElementById('nama2').value;
 
             // Fetch data dari file JSON
             fetch('data.json')
                 .then(response => response.json())
                 .then(data => {
                     // Ambil data secara acak dari array data
-                    var randomIndex = Math.floor(Math.random() * data.length);
-                    var hasilCek = data[randomIndex];
+                    var randomIndex1 = Math.floor(Math.random() * data.length);
+                    var hasilCek1 = data[randomIndex1];
 
-                    // Tampilkan hasil cek
-                    document.getElementById('hasilCek').innerHTML = `
-    <p>Nama: ${nama}</p>
-    <p>Jenis Kelamin : ${jenisKelamin}</p>
-    <p>Khodam : <strong>${hasilCek.nama}</strong></p>
-    <p><strong><em> ${hasilCek.deskripsi}</em></strong></p>
-`;
+                    // Jika cek dua nama, ambil data acak kedua
+                    if (nama2) {
+                        var randomIndex2 = Math.floor(Math.random() * data.length);
+                        var hasilCek2 = data[randomIndex2];
+                        
+                        // Tampilkan hasil cek dua nama dan komparasi
+                        document.getElementById('hasilCek').innerHTML = `
+                            <p>Nama Kamu : ${nama1}</p>
+                            <p>Khodam Kamu : <strong>${hasilCek1.nama}</strong></p>
+                            
+                            <p>Nama Teman : ${nama2}</p>
+                            <p>Khodam Teman : <strong>${hasilCek2.nama}</strong</p>
+                        
+                            <p><strong>Perbandingan:</strong></p>
+                            <p><strong>${nama1} memiliki khodam yang ${hasilCek1.deskripsi.length > hasilCek2.deskripsi.length ? 'lebih kuat' : 'lebih lemah'} dibandingkan dengan ${nama2}.</strong></p>
+                        `;
+                    } else {
+                        // Tampilkan hasil cek satu nama
+                        document.getElementById('hasilCek').innerHTML = `
+                            <p>Nama: ${nama1}</p>
+                            <p>Khodam: ${hasilCek1.nama}</p>
+                            <p><strong>${hasilCek1.deskripsi}</strong></p>
+                        `;
+                    }
                 })
                 .catch(error => {
                     console.error('Error fetching data:', error);
